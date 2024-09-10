@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg\ img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 35px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+h1{
+    color: dark rgb(207, 10, 76);
+    font-size: 35px;
+}
+.to{
+    color: rgb(250, 234, 8);
+    font-size: 35px;
+    letter-spacing: 1rem;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+ul :hover{
+    transition: .3s;
+    z-index: 3;
+    color: rgb(193, 17, 216);
+    background-color: rgb(250, 234, 8);
+    border-radius: 10px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.content h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+}
+button{
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px;
+    border: 2px solid black;
+    background: transparent;
+    position: relative;
+    font-size: 15px;
+}
+.tre :hover{
+    color: black;
+    font-weight: bold;
+    z-index: 3;
+    background-color: rgb(250, 234, 8);
+}
+
+
+
